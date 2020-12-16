@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="17291" started-at="2020-12-16T02:51:30Z" finished-at="2020-12-16T02:51:47Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="17291" started-at="2020-12-16T02:51:30Z" finished-at="2020-12-16T02:51:47Z">
+      <class name="selenium.com.test.Selenium_Gurushools_maven.AssertValidation">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:selenium.com.test.Selenium_Gurushools_maven.AssertValidation@482f8f11]" name="openBrowser" duration-ms="17256" started-at="2020-12-16T08:21:30Z" finished-at="2020-12-16T08:21:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+      </class> <!-- selenium.com.test.Selenium_Gurushools_maven.AssertValidation -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
