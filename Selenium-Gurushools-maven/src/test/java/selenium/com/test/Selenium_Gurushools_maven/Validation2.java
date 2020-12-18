@@ -8,7 +8,7 @@ public class Validation2 {
 	@Test
 	public void check()
 	{
-		Assert.assertEquals(1, 0, "number not equal");
+		Assert.assertEquals(1, 1, "number not equal");
 	}
 
 }

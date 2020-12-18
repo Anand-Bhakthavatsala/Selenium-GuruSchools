@@ -2,6 +2,7 @@ package selenium.com.test.Selenium_Gurushools_maven;
 
 import java.util.concurrent.TimeUnit;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
@@ -26,6 +27,7 @@ public class AssertValidation {
 			WebDriverManager.chromedriver().setup();
 			driver = new ChromeDriver();
 			System.out.println("Chrome browser opened");
+			
 		}
 		else if(browser.equalsIgnoreCase("firefox"))
 		{
@@ -36,6 +38,7 @@ public class AssertValidation {
 		
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		driver.get("https://www.google.com/");
+		
 
 		String title = driver.getTitle(); //Actualtitle
 		/*	

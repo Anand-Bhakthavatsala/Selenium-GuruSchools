@@ -2,16 +2,20 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="17291" started-at="2020-12-16T02:51:30Z" finished-at="2020-12-16T02:51:47Z">
+  <suite name="Default suite" duration-ms="25709" started-at="2020-12-18T03:32:11Z" finished-at="2020-12-18T03:32:37Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="17291" started-at="2020-12-16T02:51:30Z" finished-at="2020-12-16T02:51:47Z">
-      <class name="selenium.com.test.Selenium_Gurushools_maven.AssertValidation">
-        <test-method status="PASS" signature="openBrowser()[pri:0, instance:selenium.com.test.Selenium_Gurushools_maven.AssertValidation@482f8f11]" name="openBrowser" duration-ms="17256" started-at="2020-12-16T08:21:30Z" finished-at="2020-12-16T08:21:47Z">
+    <test name="Default test" duration-ms="25709" started-at="2020-12-18T03:32:11Z" finished-at="2020-12-18T03:32:37Z">
+      <class name="rediff.testcases.RediffLoginTC">
+        <test-method status="PASS" signature="login()[pri:0, instance:rediff.testcases.RediffLoginTC@4678c730]" name="login" duration-ms="23492" started-at="2020-12-18T09:02:11Z" finished-at="2020-12-18T09:02:35Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- openBrowser -->
-      </class> <!-- selenium.com.test.Selenium_Gurushools_maven.AssertValidation -->
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:rediff.testcases.RediffLoginTC@4678c730]" name="closeBrowser" is-config="true" duration-ms="2190" started-at="2020-12-18T09:02:35Z" finished-at="2020-12-18T09:02:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- rediff.testcases.RediffLoginTC -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
