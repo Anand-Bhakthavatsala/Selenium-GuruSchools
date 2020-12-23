@@ -31,6 +31,12 @@ public class RediffLoginExcel {
 		//rlp.rediffLogin(excel.getStringData(0, 2, 0),excel.getStringData(0, 2, 1));
 	}
 	
+	@Test
+	public void home()
+	{
+		
+	}
+	
 	@AfterTest
 	public void tearDown() throws InterruptedException
 	{
