@@ -27,22 +27,5 @@ public class RediffHomePage {
 		return driver.findElement(news);		
 	}
 	
-	/*@Test
-	public void test1() throws InterruptedException		
-	{
-		WebDriverManager.chromedriver().setup();
-		driver = new ChromeDriver();
 	
-		System.out.println("Test");
-		driver.get("https://www.rediff.com/");
-		driver.findElement(By.linkText("NEWS")).click();
-		Thread.sleep(3000);
-		driver.close();
-	}*/
-	
-	
-
-	
-	
-
 }

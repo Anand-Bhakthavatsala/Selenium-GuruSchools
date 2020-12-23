@@ -9,11 +9,12 @@ import org.testng.annotations.AfterTest;
 import org.testng.annotations.Test;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
+import rediff.pages.RediffHomePage;
 import rediff.pages.RediffLoginPage;
 
 public class RediffLoginTC {
 	
-	String browser="chrome"; 
+	String browser="Chrome"; 
 	WebDriver driver;
 	
 	@Test //Rediff Test case1
@@ -45,13 +46,18 @@ public class RediffLoginTC {
 		redlog.signin().click();
 		Thread.sleep(3000);
 		redlog.home().click();
+		
+		RediffHomePage redhome = new RediffHomePage(driver);
+		redhome.news();
+		Thread.sleep(5000);
+		
 	}
 	
-	@AfterTest()
+	/*@AfterTest()
 	public void closeBrowser() throws InterruptedException
 	{
 		Thread.sleep(2000);
 		driver.close();
-	}
+	}*/
 
 }

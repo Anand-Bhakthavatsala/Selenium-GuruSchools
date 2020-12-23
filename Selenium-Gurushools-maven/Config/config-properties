@@ -1,0 +1,4 @@
+Browser=chrome
+URL=https://mail.rediff.com/cgi-bin/login.cgi
+username="anand"
+password="anand123"
