@@ -3,7 +3,10 @@
 <suite name="Suite">
   <test name="Test">
     <classes>
-      <class name="rediff.testcases.RediffLoginTC"/>
+      <!-- <class name="rediff.testcases.RediffLoginExcel2"/> -->
+      <class name="rediff.testcases.RediffLoginExcel2"/>
+      <class name="Sampleproject.SpiceJetSample"/>
+    <!--   <class name="rediff.testcases.REdiffLoginTC2"/>    -->   
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

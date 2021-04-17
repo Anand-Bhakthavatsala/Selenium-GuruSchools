@@ -19,7 +19,7 @@ public class RediffHomePage {
 
 	//	driver.findElement(By.linkText("NEWS")).click();
 	
-	By news = By.linkText("NEWS");//Identify NEWS link
+	By news = By.linkText("NEW");//Identify NEWS link
 	
 	public WebElement news() //news method
 	{
@@ -27,5 +27,11 @@ public class RediffHomePage {
 		return driver.findElement(news);		
 	}
 	
+	By sports = By.xpath("//a[contains(text(),'SPORT')]");
 	
+	public WebElement sports() //news method
+	{
+		
+		return driver.findElement(sports);		
+	}
 }

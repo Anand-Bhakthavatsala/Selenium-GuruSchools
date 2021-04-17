@@ -3,11 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
   <test name="Test(failed)">
     <classes>
-      <class name="selenium.com.test.Selenium_Gurushools_maven.Validation2">
+      <class name="rediff.testcases.RediffLoginTC">
         <methods>
-          <include name="check"/>
+          <include name="login"/>
         </methods>
-      </class> <!-- selenium.com.test.Selenium_Gurushools_maven.Validation2 -->
+      </class> <!-- rediff.testcases.RediffLoginTC -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

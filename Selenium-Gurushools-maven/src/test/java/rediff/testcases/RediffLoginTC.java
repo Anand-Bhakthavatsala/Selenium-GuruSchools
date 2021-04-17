@@ -48,9 +48,9 @@ public class RediffLoginTC {
 		redlog.home().click();
 		
 		RediffHomePage redhome = new RediffHomePage(driver);
-		redhome.news();
+		redhome.news().click();
 		Thread.sleep(5000);
-		
+		redhome.sports().click();
 	}
 	
 	/*@AfterTest()

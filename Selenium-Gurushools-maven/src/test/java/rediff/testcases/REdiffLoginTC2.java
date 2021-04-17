@@ -3,6 +3,7 @@ package rediff.testcases;
 import org.openqa.selenium.WebDriver;
 import org.testng.annotations.Test;
 
+import rediff.pages.RediffHomePage;
 import rediff.pages.RediffLoginPage;
 import utility.BrowserFactory;
 
@@ -18,8 +19,15 @@ public class REdiffLoginTC2 {
 		
 		RediffLoginPage redlog = new RediffLoginPage(driver);//Instance of the class
 		redlog.username().sendKeys("guru");
+		redlog.password().sendKeys("test123");
 		Thread.sleep(3000);
-		driver=BrowserFactory.tearDown(driver);
+		redlog.home().click();
+		Thread.sleep(3000);
+		RediffHomePage rhp = new RediffHomePage(driver);
+		rhp.news().click();
+		Thread.sleep(3000);
+		rhp.sports().click();
+	//	driver=BrowserFactory.tearDown(driver);
 	}
 
 }

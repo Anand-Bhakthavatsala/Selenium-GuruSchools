@@ -26,7 +26,7 @@ public class RediffLoginPagePF {
 	
 	public void rediffLogin(String username, String password) throws InterruptedException
 	{
-		Thread.sleep(3000);
+		Thread.sleep(2000);
 		uname.clear();
 		uname.sendKeys(username);
 		pwd.clear();

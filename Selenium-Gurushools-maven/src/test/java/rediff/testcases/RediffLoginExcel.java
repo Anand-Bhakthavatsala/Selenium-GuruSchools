@@ -24,14 +24,14 @@ public class RediffLoginExcel {
 //		rlp.rediffLogin("anand", "anand123");		
 		
 		//Record1
-		rlp.rediffLogin(excel.getStringData("Selenium", 1, 0),excel.getStringData(0, 1, 1));
+		rlp.rediffLogin(excel.getStringData("Login", 1, 0),excel.getStringData(0, 1, 1));
 		Helper help = new Helper();
 		help.captureScreenshot(driver);
 		//Record2
 		//rlp.rediffLogin(excel.getStringData(0, 2, 0),excel.getStringData(0, 2, 1));
 	}
 	
-	@Test
+	//@Test
 	public void home()
 	{
 		
